@@ -1,0 +1,5 @@
+# Scenario 1, DNS: typo in the backend hostname.
+services:
+  api:
+    environment:
+      BACKEND_HOST: backned

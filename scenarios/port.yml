@@ -1,0 +1,5 @@
+# Scenario 2, port: backend moves to 9000, api still dials 80.
+services:
+  backend:
+    environment:
+      WHOAMI_PORT_NUMBER: "9000"
